@@ -1,48 +1,72 @@
-Recursion Tree Visualizer
-Recursion Tree Visualizer is an interactive tool designed to help programmers, students, and educators understand the structure and flow of recursive algorithms. By visualizing recursion trees for user-defined functions in JavaScript, Python, or Go, this project makes it easier to analyze recursion depth, branching, and overlapping subproblems—key concepts in both recursion and dynamic programming.
+# 📊 Recursion Tree Visualizer
 
-🚀 Features
-Multi-language Support: Visualize recursive functions written in JavaScript, Python, or Go.
+**Recursion Tree Visualizer** is an interactive educational tool designed to help programmers, students, and educators **visualize and understand recursive algorithms**. By dynamically generating recursion trees for user-defined functions in **JavaScript**, **Python**, or **Go**, this tool makes it easier to analyze **recursion depth**, **branching**, and **overlapping subproblems** — key concepts in recursion and dynamic programming (DP).
 
-Interactive Visualization: See each recursive call as a node in a dynamically generated tree.
+---
 
-Recursion Depth & Complexity: Instantly understand call stack depth and branching factor.
+## 🚀 Features
 
-Dynamic Programming Insights: Highlights repeated subproblems, aiding in the transition from naive recursion to optimized DP.
+- **Multi-Language Support**  
+  Visualize recursive functions written in **JavaScript**, **Python**, or **Go**.
 
-Step-by-Step Animation: Watch the recursion tree build in real time, with logs for each call.
+- **Interactive Recursion Trees**  
+  Each recursive call appears as a node in a dynamically generated tree. Explore the tree with **zoom** and **pan**.
 
-Modern Tech Stack:
+- **Call Stack Depth & Branching Factor**  
+  Instantly observe recursion depth and the branching structure of your algorithm.
 
-Frontend: React + TypeScript
+- **Dynamic Programming Insights**  
+  Repeated subproblems are automatically highlighted — helping users transition from naive recursion to optimized DP solutions.
 
-Backend: Node.js with sandboxed execution
+- **Step-by-Step Animation**  
+  Watch your recursion tree build in real-time, with detailed logs for every recursive call.
 
-Visualization: Reingold-Tilford algorithm for tidy tree layouts
+- **Clean & Tidy Tree Layouts**  
+  Uses the **Reingold-Tilford algorithm** for clear, readable tree structures.
 
-🧑‍💻 My Learning & Contributions
-As someone passionate about algorithms and code quality, I explored and documented this project to deepen my understanding of:
+---
 
-How recursion trees are generated and visualized programmatically
+## ⚙️ Tech Stack
 
-Tracking and logging recursive calls for educational clarity
+- **Frontend:** React + TypeScript  
+- **Backend:** Node.js (sandboxed code execution for safety)  
+- **Visualization:** Reingold-Tilford algorithm for tree layout  
 
-The use of advanced layout algorithms (like Reingold-Tilford) for clean, readable tree structures
+---
 
-Best practices in code modularity and documentation
+## 💻 How to Use
 
-I have added additional comments and documentation, and clarified usage instructions to make it even more accessible for learners and fellow developers.
+1️⃣ **Input** your recursive function (JavaScript, Python, or Go) into the tool.  
+2️⃣ **Run** the visualizer — your code executes securely in a sandboxed environment, and every recursive call is logged.  
+3️⃣ **Explore** the generated recursion tree interactively. Zoom, pan, and step through each call to see your algorithm in action.
 
-📚 Usage
-Input your recursive function in JavaScript, Python, or Go.
+---
 
-Run the visualizer: the backend executes your code in a safe, sandboxed environment and logs each recursive call.
+## 🧑‍💻 My Contributions & Learning
 
-Explore the generated recursion tree interactively—zoom, pan, and step through each call to see how the algorithm unfolds.
+Driven by my passion for algorithms, recursion, and code quality, I studied and enhanced this project to:
 
-📝 Acknowledgements
-This project is based on the outstanding work by brpapa/recursion-tree-visualizer.
-I have studied, documented, and adapted the codebase to further my understanding of recursion, dynamic programming, and algorithm visualization.
+- Understand **programmatic generation and visualization of recursion trees**
+- Learn how to **track, log, and present recursive calls** for educational clarity
+- Explore advanced **tree layout algorithms** like Reingold-Tilford
+- Apply **best practices** in code modularity, documentation, and developer experience
 
-💡 Why This Project?
-Recursion and dynamic programming can be challenging to master. Visualizing the call structure not only aids in debugging but also builds intuition for optimizing algorithms—a skill I am actively developing through resources like Aditya Verma’s dynamic programming playlist.
+➡ I contributed additional documentation, comments, and clearer usage instructions to make the project more accessible for learners and developers.
+
+---
+
+## 🙏 Acknowledgements
+
+This project builds upon the excellent work of [brpapa/recursion-tree-visualizer](https://github.com/brpapa/recursion-tree-visualizer). My adaptations aim to further enhance its educational value and usability.
+
+---
+
+## 💡 Why This Project?
+
+Recursion and dynamic programming are often challenging concepts. By **visualizing the structure of recursive calls**, this tool helps users:
+
+- Build intuition for recursion flow and call stack behavior
+- Identify repeated subproblems for dynamic programming
+- Debug and optimize recursive algorithms
+
+I’m actively strengthening my skills in these areas through hands-on exploration and learning resources such as **Aditya Verma’s dynamic programming playlist**.
